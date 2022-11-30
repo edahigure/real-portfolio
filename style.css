@@ -1,3 +1,90 @@
 .title {
   color: blue;
 }
+
+nav {
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 77px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding-left: 6.4%;
+}
+
+.hamburger-nav {
+  padding-right: 6.4%;
+}
+
+.presentation {
+  height: 590px;
+  background-color: #1c1a19;
+  background-image: url(./images/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.text-1 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-top: 21%;
+  padding-left: 6.4%;
+}
+
+.text-2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  padding-left: 6.4%;
+}
+
+.text-3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding-left: 6.4%;
+  padding-right: 6.4%;
+}
+
+.icons-container ul {
+  list-style: none;
+  margin-left: 6.4%;
+  margin-right: 19.2%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 3%;
+  padding-left: 0%;
+}
+
+.social img {
+  width: 70%;
+}
