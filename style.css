@@ -52,8 +52,9 @@ nav {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  padding-top: 21%;
+  padding-top: 9%;
   padding-left: 6.4%;
+  margin-bottom: 0%;
 }
 
 .text-2 {
@@ -66,6 +67,7 @@ nav {
   align-items: center;
   color: #fff5e1;
   padding-left: 6.4%;
+  margin-bottom: 0%;
 }
 
 .text-3 {
