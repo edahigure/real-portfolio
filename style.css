@@ -385,8 +385,7 @@ nav {
   background: #1c1a19;
   background-image: url(./images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
-  flex: 1;
+  background-position: right bottom;  
   display: flex;
   flex-direction: column;
   justify-items: left;
@@ -394,7 +393,7 @@ nav {
 }
 
 .about-me {
-  width: 327px;
+  width: 100%;
   height: 79px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -404,11 +403,13 @@ nav {
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin-top: 120px;
-  padding: 24px;
+  margin-bottom: 0%;
+  padding-left: 6.4%;
+  padding-right: 6.4%;
 }
 
 .finale-description {
-  width: 327px;
+  width: 70%;
   height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -416,7 +417,7 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin: 24px;
+  margin-left: 6.4%;
 }
 
 .get-my-resume {
@@ -433,8 +434,8 @@ nav {
   justify-content: center;
   color: white;
   padding: 12px;
-  margin-top: 1px;
-  margin-left: 24px;
+  margin-top: 10px;
+  margin-left: 6.4%;
 }
 
 .get-my-resume:hover {
@@ -455,11 +456,102 @@ nav {
   margin-left: 24px;
 }
 
-
   .wrapper-space-white {
     margin: 0 auto;
     width: 375px;
     height: 100px;
     flex: 1;
     background: white;
+  }
+
+  .wrapper-end {    
+    width: 100%;
+    height: 1000px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #1c1a19;
+  }
+
+  .line-separator {
+    width: 80%;
+    height: 1px;        
+    margin-left: 6.4%;
+    margin-right: 6.4%;    
+    
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: white;
+    margin-bottom: 140px;
+  }
+
+  .container-duo {
+    display: flex;    
+    color:white;
+    gap: 24px;    
+  }
+
+  .item-rotated-square {
+    color: white;
+    text-align: right;
+    width: 18px;
+    height: 18px;
+    background: #ff6b00;
+    transform: rotate(-45deg);
+  }
+
+
+  .item-2 {
+    width: 43.73%;
+    height: 24px;    
+    font-family: 'InaiMathi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;    
+    color: #fff;    
+  }
+
+  .list-arrange {
+    list-style: none;
+    margin-left: 1px;
+    padding-left: 1px;    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .language-item {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex: 1;
+  }
+
+  .item-square {
+    color: white;
+    text-align: right;
+    width: 18px;
+    height: 18px;
+    background: #ff6b00;
+  }
+
+  .item-circle {
+    color: white;
+    text-align: right;
+    width: 18px;
+    height: 18px;
+    background: #ff6b00;
+    border-radius: 150px;
   }
