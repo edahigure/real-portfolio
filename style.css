@@ -104,9 +104,7 @@ nav {
   align-content: flex-start;
   height: 935px;
   height: 1000px;
-  width: 100%;
-  border-style: solid;
-  border-color: aqua;
+  width: 100%;  
 }
 
 .title {  
@@ -350,9 +348,7 @@ nav {
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(./images/Placeholder2.png);
-  background-repeat: no-repeat;    
-  border-style: solid;
-  border-color: aqua;  
+  background-repeat: no-repeat;      
 }
 
 .card-1 {
