@@ -456,7 +456,7 @@ nav {
 
 .wrapper-end {
   width: 100%;
-  height: 1000px;
+  height: 1200px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -478,6 +478,7 @@ nav {
 
 .container-duo {
   display: flex;
+  align-items: center;
   color: white;
   gap: 24px;
 }
