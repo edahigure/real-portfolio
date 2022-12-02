@@ -8,6 +8,11 @@
 **[your_project__name]** This project is a template to build a Portfolio application
 
 
+## Built With
+
+- HTML 5 
+- CSS
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > This project is to practice the set up of a project a the use of linters
@@ -31,7 +36,7 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Edahi Antonio Gutiérrez Reyes**
 
 
 - GitHub: [@edahigure](https://github.com/edahigure)
