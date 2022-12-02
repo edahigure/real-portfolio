@@ -299,6 +299,7 @@ nav {
   letter-spacing: 0.03em;
   background: #ff6b00;
   color: white;
+  text-decoration: none;
 }
 
 .orange-button:hover {
@@ -317,6 +318,7 @@ nav {
   color: #ff6b00;
   background: #fff5e1;
   border: 1px solid #ff6b00;
+  text-decoration: none;
 }
 
 .wrapper-cards {
@@ -425,6 +427,7 @@ nav {
   color: white;
   padding: 12px;
   margin-top: 10px;
+  margin-bottom: 211px;
   margin-left: 6.4%;
 }
 
