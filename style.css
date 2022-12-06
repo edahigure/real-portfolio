@@ -1,7 +1,6 @@
 body {
   display: block;
   margin: 0%;
-  height: 6968px;
 }
 
 nav {
@@ -546,4 +545,8 @@ nav {
   height: 18px;
   background: #ff6b00;
   border-radius: 150px;
+}
+
+.contact-me-form {
+  margin-top: 1100px;
 }
