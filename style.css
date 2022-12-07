@@ -371,7 +371,7 @@ nav {
 }
 
 .finale {
-  width: 100%;  
+  width: 100%;
   background: #1c1a19;
   background-repeat: no-repeat;
   background-position: 90% 5%;
@@ -553,31 +553,31 @@ nav {
   border-radius: 150px;
 }
 
-.contact-me-form {  
-  padding: 7.3%;  
+.contact-me-form {
+  padding: 7.3%;
 }
 
 .content {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;    
+  line-height: 44px;
   text-align: center;
-  color: #172B4D;  
+  color: #172b4d;
 }
 
-.form {  
+.form {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
 
 .items-form {
   margin-bottom: 24px;
   border-top: none;
   border-left: none;
-  border-right: none;  
+  border-right: none;
   border-width: 1px;
   border-color: #dbd8d7;
   width: 100%;
@@ -588,54 +588,61 @@ nav {
 }
 
 #email {
-  height: 46px;    
+  height: 46px;
 }
 
 .textarea {
   border-top: none;
   border-left: none;
-  border-right: none;  
+  border-right: none;
   border-bottom: none;
   margin-bottom: 24px;
-  background: #FBF8F7;
+  background: #fbf8f7;
   height: 114px;
   width: 100%;
   padding: 12px;
 }
 
-.form-button{  
+.form-button {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  background: #ff6b00;    
-  color: white;           
-  border: none;    
-  padding: 12px;  
+  background: #ff6b00;
+  color: white;
+  border: none;
+  padding: 12px;
 }
 
-.social-group-end {    
+.form-button:hover {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #fff5e1;
+  color: #ff6b00;
+  border: none;
+  padding: 12px;
+}
+
+.social-group-end {
   color: white;
   display: flex;
   justify-content: space-around;
-  align-items:center;    
+  align-items: center;
   margin-left: 30%;
   margin-right: 30%;
   padding-top: 25px;
   padding-bottom: 25px;
   gap: 12px;
-
 }
 
 .rectangle {
   height: 3px;
   width: 30%;
-  background-color: #555;      
-  margin-bottom: 32px;    
+  background-color: #555;
+  margin-bottom: 32px;
   margin-left: 35%;
 }
-
-
-
-
