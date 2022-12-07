@@ -373,13 +373,19 @@ nav {
 .finale {
   width: 100%;  
   background: #1c1a19;
-  background-image: url(./images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   background-position: 90% 5%;
   display: flex;
   flex-direction: column;
   justify-items: left;
   align-items: flex-start;
+  position: relative;
+}
+
+.img-1 {
+  position: absolute;
+  right: 0;
+  top: 390px;
 }
 
 .about-me {
