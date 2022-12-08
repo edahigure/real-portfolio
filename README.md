@@ -15,8 +15,17 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+### Prerequisite
+To use this program you just need a web browser as Chrome or Firefox.
+Optionaly you can use tools like git, github, visual studio code, Node to develop more functionality
+
 > This project is to practice the set up of a project a the use of linters
 
+### Key Features
+- This project is a portfolio for promoting my works.
+- It include a presentation, a section of works, and an about and contact information
+- It make links to the repositories of all my other projects as well as to all my social media
+- It is done responsively, to adapt to different devises and screen sizes
 
 
 ### Setup
