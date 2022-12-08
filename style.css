@@ -1,7 +1,6 @@
 body {
   display: block;
   margin: 0%;
-  height: 6968px;
 }
 
 nav {
@@ -373,15 +372,20 @@ nav {
 
 .finale {
   width: 100%;
-  height: 652px;
   background: #1c1a19;
-  background-image: url(./images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: 90% 5%;
   display: flex;
   flex-direction: column;
   justify-items: left;
   align-items: flex-start;
+  position: relative;
+}
+
+.img-1 {
+  position: absolute;
+  right: 0;
+  top: 390px;
 }
 
 .about-me {
@@ -445,8 +449,9 @@ nav {
   justify-content: center;
   color: #f55800;
   padding: 12px;
-  margin-top: 1px;
-  margin-left: 24px;
+  margin-top: 10px;
+  margin-bottom: 211px;
+  margin-left: 6.4%;
 }
 
 .wrapper-space-white {
@@ -546,4 +551,98 @@ nav {
   height: 18px;
   background: #ff6b00;
   border-radius: 150px;
+}
+
+.contact-me-form {
+  padding: 7.3%;
+}
+
+.content {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items-form {
+  margin-bottom: 24px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  border-color: #dbd8d7;
+  width: 100%;
+}
+
+#name {
+  height: 46px;
+}
+
+#email {
+  height: 46px;
+}
+
+.textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin-bottom: 24px;
+  background: #fbf8f7;
+  height: 114px;
+  width: 100%;
+  padding: 12px;
+}
+
+.form-button {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  color: white;
+  border: none;
+  padding: 12px;
+}
+
+.form-button:hover {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #f55800;
+  padding: 12px;
+}
+
+.social-group-end {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  gap: 12px;
+}
+
+.rectangle {
+  height: 3px;
+  width: 30%;
+  background-color: #555;
+  margin-bottom: 32px;
+  margin-left: 35%;
 }
