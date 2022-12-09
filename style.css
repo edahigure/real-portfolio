@@ -125,6 +125,9 @@ nav {
   height: 237px;
   width: 327px;
   margin-left: 6.4%;
+  border-radius: 5%;
+  transition-duration: 1s;
+  transition-property: border-radius;
 }
 
 .title-multi {
@@ -645,4 +648,8 @@ nav {
   background-color: #555;
   margin-bottom: 32px;
   margin-left: 35%;
+}
+
+.image-work:hover {
+  border-radius: 50%;
 }
