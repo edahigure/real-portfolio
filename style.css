@@ -76,6 +76,8 @@ nav {
   color: #fff;
   padding-left: 6.4%;
   padding-right: 6.4%;
+  animation-duration: 3s;
+  animation-name: slidein;  
 }
 
 .icons-container ul {
@@ -653,11 +655,6 @@ nav {
 
 .image-work:hover {
   border-radius: 50%;
-}
-
-.text-3 {
-  animation-duration: 3s;
-  animation-name: slidein;
 }
 
 @keyframes slidein {
