@@ -319,8 +319,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #fff;
-    margin-top: 178px;
+    color: #fff;    
     margin-left: 4.33%;
   }
 
@@ -522,8 +521,7 @@
   }
 
   .wrapper-item-about {
-    margin-left: 9.86%;
-    margin-right: 9.86%;
+    margin-left: 9.86%;       
   }
 
   .item-2 {
@@ -897,8 +895,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #fff;
-    margin-top: 84px;
+    color: #fff;    
     margin-left: 4.2%;
     margin-right: 4.2%;
   }
@@ -1064,8 +1061,7 @@
     top: 390px;
   }
 
-  .about-me {
-    width: 100%;
+  .about-me {    
     height: 79px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -1314,10 +1310,11 @@
     gap: 12px;
   }
 
-.rectangle {
-  height: 3px;
-  width: 30%;
-  background-color: #555;
-  margin-bottom: 32px;
-  margin-left: 35%;
+  .rectangle {
+    height: 3px;
+    width: 30%;
+    background-color: #555;
+    margin-bottom: 32px;
+    margin-left: 35%;  
+ }
 }
