@@ -28,7 +28,7 @@ Optionaly you can use tools like git, github, visual studio code, Node to develo
 - It is done responsively, to adapt to different devises and screen sizes
 
 ### Online version
-[On line version](https://edahigure.github.io/Portfolio/)
+[Online version](https://edahigure.github.io/Portfolio/)
 
 ### Setup
 
