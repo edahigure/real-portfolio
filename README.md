@@ -27,6 +27,8 @@ Optionaly you can use tools like git, github, visual studio code, Node to develo
 - It make links to the repositories of all my other projects as well as to all my social media
 - It is done responsively, to adapt to different devises and screen sizes
 
+### Online version
+[On line version](https://edahigure.github.io/Portfolio/)
 
 ### Setup
 
