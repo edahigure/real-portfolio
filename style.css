@@ -663,6 +663,10 @@
     padding-bottom: 25px;
     gap: 12px;
   }
+
+  label {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1135px) {
@@ -1317,4 +1321,8 @@
     margin-bottom: 32px;
     margin-left: 35%;
   }
+
+  label {
+    display: none;
+  }  
 }
