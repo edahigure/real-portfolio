@@ -1286,24 +1286,24 @@
     background: #3c3a39;
     position: fixed;
     left: 0%;
-    top: 0%;    
+    top: 0%;
   }
 
   .menu-mobile-links {
     display: flex;
     flex-direction: column;
-    gap: 40px;    
-    margin-top: 34px;  
+    gap: 40px;
+    margin-top: 34px;
   }
 
   .menu-mobile-links a {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 44px;            
-    color: #fff5E1;
-    text-decoration: none;     
+    line-height: 44px;
+    color: #fff5e1;
+    text-decoration: none;
   }
 
   .container-btn {
