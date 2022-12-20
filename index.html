@@ -14,6 +14,7 @@
     
 </head>
 <body>    
+
           
     <header>
         <nav class="nav">  
@@ -26,7 +27,7 @@
                     <img  src="./images/Union.png" alt="Email icon"> 
                 </a>                 
             </nav>   
-            <a href="#" class="hamburger-nav">
+            <a href="#" class="hamburger-nav" id="hambuger">
                 <img  src="./images/Hamburger.png" alt="Menu icon"> 
             </a>        
         </nav>
@@ -82,7 +83,7 @@
         
     </section>
 
-    <section class="wrapper-works">
+    <section class="wrapper-works" id="portfolio">
         
 
         <div class="wrapper-flex-1">
@@ -126,7 +127,7 @@
 
     </section>
 
-    <section class="wrapper-cards">
+    <section class="wrapper-cards" >
         
         <div class="card card-0">
            <a class="orange-button" href="#">
@@ -208,7 +209,7 @@
 
     <div class="wrapper-space-white"></div>
 
-    <section class="finale">
+    <section class="finale" id="about">
         
         <h2 class="about-me">
             About me
@@ -277,7 +278,7 @@
                 
     </section>        
 
-    <section class="contact-me-form">
+    <section class="contact-me-form" id="contact">
         <h2 class="content">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         <form class="form" action="https://formspree.io/f/maykrjbr" method="POST">
 
@@ -318,7 +319,19 @@
     </div>                
     <div class="rectangle"></div>  
     
+    <!-- MOBILE MENU MODAL -->
+    <div class="container-mobile-menu" id="mobile-menu">
 
+        <div class="container-btn"><img src="./images/Icon-Cancel.png" alt="Close button image"  id="close-btn"></div>
+        <div class="menu-mobile-links" >
+            <div class="border" id="menu-portfolio"><a href="#portfolio" >Portfolio</a></div>
+            <div class="border" id="menu-contact"><a href="#contact" >Contact</a></div>
+            <div class="border" id="menu-about"><a href="#about" >About</a> </div>
+        </div>   
+    </div>
+    
+
+<script src="./mobile-menu.js"></script>
     
 </body>
 </html>

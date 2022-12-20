@@ -1278,4 +1278,44 @@
   label {
     display: none;
   }
+
+  .container-mobile-menu {
+    display: none;
+    width: 100%;
+    height: 755px;
+    background: #3c3a39;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+  }
+
+  .menu-mobile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 34px;
+  }
+
+  .menu-mobile-links a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff5e1;
+    text-decoration: none;
+  }
+
+  .container-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10.1%;
+    padding-top: 12px;
+  }
+
+  .border {
+    border-bottom: 1px solid #6f6c6b;
+    margin-left: 10.66%;
+    margin-right: 10.66%;
+  }
 }
