@@ -124,44 +124,20 @@ wrapperCards.innerHTML=buffer_str;
 const see_project = document.querySelector("#see_project");
 const popup_window =  document.querySelector("#popup-window");
 
-function display(project) {
-
-    let str_buf=`
-    <div class="window-header"> 
-    <h2>Multi Post Stories</h2>
-    <div class="close-btn-popup" id="close-popup"><img src="./images/Icon-Cancel.png" alt="Close button image"  id="close-btn-popup"></div>
-</div>
-<div class="label-group">
-    <div class="button-popup">html</div>
-    <div class="button-popup">Bootstrap</div>
-    <div class="button-popup">Ruby on rails</div>
-</div>
-<img src="./images/Snapshoot-Portfolio.png" alt="Project image" >
-<p class="description-popup">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
-</p>
-<div class="button-group">
-    <button type="button" class="live-button letter-style">See Live <img src="./images/Icon-Export.png" alt="See live icon"/> </button>
-    <button type="button" class="live-button letter-style">See Source<img src="./images/Frame.png" alt="Github icon"/></button>
-</div>
-    
-    `;
-
-    const popup_details = document.querySelector("#popup-details");
-    popup_details.innerHTML = str_buf;
+function display() {
     popup_window.style.display = 'block';
-  }
+}
   
-  function hide() {
-    popup_window.style.display = 'none';
-  }
+function hide() {
+popup_window.style.display = 'none';
+}
 
-  see_project.addEventListener('click', display);
-  
-  const close_popup = document.querySelector("#close-popup");
+see_project.addEventListener('click', display);
 
-  close_popup.addEventListener('click', hide);
+const close_popup = document.querySelector("#close-popup");
 
-  const button_card_0 = document.querySelector("#button-card-0");
+close_popup.addEventListener('click', hide);
 
-  button_card_0.addEventListener('click',display);
+const button_card_0 = document.querySelector("#button-card-0");
+
+button_card_0.addEventListener('click',display);
