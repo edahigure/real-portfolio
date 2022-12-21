@@ -290,6 +290,7 @@
     color: white;
     background: #ba4d00;
     text-decoration: none;
+    border-style: none;
   }
 
   .orange-button:hover {
@@ -1099,6 +1100,7 @@
     background: #ba4d00;
     color: white;
     text-decoration: none;
+    border-style: none;
   }
 
   .orange-button:hover {
