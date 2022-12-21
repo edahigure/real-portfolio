@@ -1,143 +1,267 @@
-let str_description = "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.";
+const strDescription = `A daily selection of
+ privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.`;
+const strDescriptionDesktop = `Lorem Ipsum
+ is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`;
+const strDescriptionMobile = `Lorem Ipsum
+ is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`;
 
-let intro_obj = {
-    name: 'Multi-Post Stories', 
-    description: str_description, 
+const introObj = {
+  name: 'Multi-Post Stories',
+  name_desktop: 'Keeping track of hundreds  of components website',
+  description: strDescription,
+  description_desktop: strDescriptionDesktop,
+  description_mobile: strDescriptionMobile,
+  featured_image: './images/img-work-mobile.png',
+  featured_image_desktop: './images/Snapshoot-Portfolio.png',
+  technologies: ['html', 'bootstrap', 'Ruby on rails'],
+  link_to_live_version: '#',
+  link_to_source: '#',
+};
+
+const cardsInfo = [
+  {
+    name: 'Data Dashboard Healthcare-0',
+    name_desktop: 'Data Dashboard Healthcare',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description_desktop: strDescriptionDesktop,
+    description_mobile: strDescriptionMobile,
     featured_image: './images/img-work-mobile.png',
-    technologies: [ 'css', 'html', 'bootstrap', 'Ruby' ],
+    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
     link_to_live_version: '#',
-    link_to_source: '#'
-}
-
-
-let cards_info =  [
-    {
-        name: 'Data Dashboard Healthcare', 
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard", 
-        featured_image: './images/img-work-mobile.png',
-        technologies: [ 'html', 'bootstrap', 'Ruby' ],
-        link_to_live_version: '#',
-        link_to_source: '#'        
-    },
-    {
-        name: 'Website Portfolio', 
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard", 
-        featured_image: './images/img-work-mobile.png',
-        technologies: [ 'html', 'bootstrap', 'Ruby' ],
-        link_to_live_version: '#',
-        link_to_source: '#'        
-    },
-    {
-        name: 'Profesional Art Printing Data', 
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard", 
-        featured_image: './images/img-work-mobile.png',
-        technologies: [ 'html', 'bootstrap', 'Ruby' ],
-        link_to_live_version: '#',
-        link_to_source: '#'        
-    },
-    {
-        name: 'Data Dashboard Healthcare', 
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard", 
-        featured_image: './images/img-work-mobile.png',
-        technologies: [ 'html', 'bootstrap', 'Ruby' ],
-        link_to_live_version: '#',
-        link_to_source: '#'        
-    },
-    {
-        name: 'Website Portfolio', 
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard", 
-        featured_image: './images/img-work-mobile.png',
-        technologies: [ 'html', 'bootstrap', 'Ruby' ],
-        link_to_live_version: '#',
-        link_to_source: '#'        
-    },
-    {
-        name: 'Website Portfolio', 
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard", 
-        featured_image: './images/img-work-mobile.png',
-        technologies: [ 'html', 'bootstrap', 'Ruby' ],
-        link_to_live_version: '#',
-        link_to_source: '#'       
-    }
+    link_to_source: '#',
+  },
+  {
+    name: 'Website Portfolio-1',
+    name_desktop: 'Website Portfolio-1',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description_desktop: strDescriptionDesktop,
+    description_mobile: strDescriptionMobile,
+    featured_image: './images/img-work-mobile.png',
+    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    link_to_live_version: '#',
+    link_to_source: '#',
+  },
+  {
+    name: 'Profesional Art Printing Data-2',
+    name_desktop: 'Profesional Art Printing Data-2',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description_desktop: strDescriptionDesktop,
+    description_mobile: strDescriptionMobile,
+    featured_image: './images/img-work-mobile.png',
+    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    link_to_live_version: '#',
+    link_to_source: '#',
+  },
+  {
+    name: 'Data Dashboard Healthcare-3',
+    name_desktop: 'Data Dashboard Healthcare-3',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description_desktop: strDescriptionDesktop,
+    description_mobile: strDescriptionMobile,
+    featured_image: './images/img-work-mobile.png',
+    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    link_to_live_version: '#',
+    link_to_source: '#',
+  },
+  {
+    name: 'Website Portfolio-4',
+    name_desktop: 'Website Portfolio-4',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description_desktop: strDescriptionDesktop,
+    description_mobile: strDescriptionMobile,
+    featured_image: './images/img-work-mobile.png',
+    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    link_to_live_version: '#',
+    link_to_source: '#',
+  },
+  {
+    name: 'Website Portfolio-5',
+    name_desktop: 'Website Portfolio-5',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description_desktop: strDescriptionDesktop,
+    description_mobile: strDescriptionMobile,
+    featured_image: './images/img-work-mobile.png',
+    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    link_to_live_version: '#',
+    link_to_source: '#',
+  },
 ];
 
-const card_works = document.querySelector('.card-first');
+const cardWorks = document.querySelector('.card-first');
 
-let big_string=`
-<div class="wrapper-flex-2">
+const bigString = `<div class="wrapper-flex-2">
 
-    <img src="${intro_obj.featured_image}" class="image-work" alt="Multi-Post Stories">
+  <img src="${introObj.featured_image}" class="image-work" alt="Multi-Post Stories">
+  <div class="wrapper-flex-3">
+    <h3 class="title-multi">
+      ${introObj.name}
+    </h3>
 
-
-    <div class="wrapper-flex-3">
-        <h3 class="title-multi">
-            ${intro_obj.name}
-        </h3>
-
-        <p class="works-description">
-            ${intro_obj.description}
-        </p>
-        
-        <ul class="button-container">
-            <li class="button1">css</li>
-            <li class="button1">html</li>
-            <li class="button1">bootstrap</li>
-            <li class="button1">Ruby</li> 
-            <button class="button2" id="see_project">See Project</button>                                  
-        </ul>               
-    </div>
+    <p class="works-description">
+      ${introObj.description}
+    </p>
     
+    <ul class="button-container">
+      <li class="button1">css</li>
+      <li class="button1">html</li>
+      <li class="button1">bootstrap</li>
+      <li class="button1">Ruby</li> 
+      <button class="button2" id="button-card-intro">See Project</button>                  
+    </ul>         
+  </div>
+  
 
 </div>
 `;
 
-card_works.innerHTML = big_string; 
+cardWorks.innerHTML = bigString;
 
 const wrapperCards = document.querySelector('.wrapper-cards');
-let buffer_str=`<div class="card card-0">
-<a class="orange-button" id = "button-card-0" href="#">
-    See Project
-</a>                                
+let bufferStr = `<div class="card card-0">
+<button class="orange-button" id = "button-card-0" >
+  See Project
+</button>                
 </div>`;
-for(let i=1;i<cards_info.length;i++){
-    let project = cards_info [i];    
-    buffer_str+=`<div class="card card-${i}">
-    <h2 class="title-post"> ${project.name}</h2>
-    <p class="supporting-text">${project.description}</p>
+for (let i = 1; i < cardsInfo.length; i += 1) {
+  const project = cardsInfo[i];
+  bufferStr += `<div class="card card-${i}">
+  <h2 class="title-post"> ${project.name}</h2>
+  <p class="supporting-text">${project.description}</p>
 
-    <ul class="button-container-float">
-       <li class="button3">${project.technologies[0]}</li>
-       <li class="button3">${project.technologies[1]}</li>
-       <li class="button3">${project.technologies[2]}</li>                                                    
-    </ul>            
-    <a class="orange-button" id = "button-card-${i}" href="#">
-        See Project
-    </a>                        
+  <ul class="button-container-float">
+     <li class="button3">${project.technologies[0]}</li>
+     <li class="button3">${project.technologies[1]}</li>
+     <li class="button3">${project.technologies[2]}</li>                          
+  </ul>      
+  <button class="orange-button" id = "button-card-${i}">
+    See Project
+  </button>            
 </div>
 
 `;
-
 }
 
-wrapperCards.innerHTML=buffer_str;
+function makeCard(obj) {
+  return `
+    <div class="overlay">
+    </div>
+    <div class="window" id = "popup-details">
+      <div class="window-header"> 
+        <h2 class="popup-title">${obj.name}</h2>
+        <h2 class="popup-title-desktop">${obj.name_desktop}</h2>
+        <div class="close-btn-popup" id="close-popup"><img src="./images/Icon-Cancel.png" alt="Close button image"  id="close-btn-popup"></div>
+      </div>
+      <div class="button-group">
+        <div class="button-popup">${obj.technologies[0]}</div>
+        <div class="button-popup">${obj.technologies[1]}</div>
+        <div class="button-popup">${obj.technologies[2]}</div>
+      </div>
 
-const see_project = document.querySelector("#see_project");
-const popup_window =  document.querySelector("#popup-window");
+      <div class = "wrapper-popup-1">         
+        <img class="img-popup-desktop" src="${obj.featured_image_desktop}" alt="Project image" >
+        <div class = "wrapper-popup-2"> 
+          <p class="description-popup">
+            ${obj.description_mobile}
+          </p>
 
-function display() {
-    popup_window.style.display = 'block';
+          <p class="description-popup-desktop">
+            ${obj.description_desktop}
+          </p>
+          
+
+          <div class="button-group">
+            <button type="button" class="live-button letter-style">See Live <img src="./images/Icon-Export.png" alt="See live icon"/> </button>
+            <button type="button" class="live-button letter-style">See Source<img src="./images/Frame.png" alt="Github icon"/></button>
+          </div>
+        </div>
+      <div>            
+    </div>`;
 }
-  
-function hide() {
-popup_window.style.display = 'none';
+
+wrapperCards.innerHTML = bufferStr;
+
+let closePopup;
+
+function closePopupFunc() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = '';
+  popupWindow.style.display = 'none';
 }
 
-see_project.addEventListener('click', display);
+const cardIntro = document.querySelector('#button-card-intro');
 
-const close_popup = document.querySelector("#close-popup");
+function displayIntro() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = makeCard(introObj);
+  popupWindow.style.display = 'block';
+  closePopup = document.getElementById('close-popup');
+  closePopup.addEventListener('click', closePopupFunc);
+}
+cardIntro.addEventListener('click', displayIntro);
 
-close_popup.addEventListener('click', hide);
+const card0 = document.querySelector('#button-card-0');
+function displayCard0() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = makeCard(cardsInfo[0]);
+  popupWindow.style.display = 'block';
+  closePopup = document.getElementById('close-popup');
+  closePopup.addEventListener('click', closePopupFunc);
+}
+card0.addEventListener('click', displayCard0);
 
-const button_card_0 = document.querySelector("#button-card-0");
+const card1 = document.querySelector('#button-card-1');
+function displayCard1() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = makeCard(cardsInfo[1]);
+  popupWindow.style.display = 'block';
+  closePopup = document.getElementById('close-popup');
+  closePopup.addEventListener('click', closePopupFunc);
+}
+card1.addEventListener('click', displayCard1);
 
-button_card_0.addEventListener('click',display);
+const card2 = document.querySelector('#button-card-2');
+function displayCard2() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = makeCard(cardsInfo[2]);
+  popupWindow.style.display = 'block';
+  closePopup = document.getElementById('close-popup');
+  closePopup.addEventListener('click', closePopupFunc);
+}
+card2.addEventListener('click', displayCard2);
+
+const card3 = document.querySelector('#button-card-3');
+function displayCard3() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = makeCard(cardsInfo[3]);
+  popupWindow.style.display = 'block';
+  closePopup = document.getElementById('close-popup');
+  closePopup.addEventListener('click', closePopupFunc);
+}
+card3.addEventListener('click', displayCard3);
+
+const card4 = document.querySelector('#button-card-4');
+function displayCard4() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = makeCard(cardsInfo[4]);
+  popupWindow.style.display = 'block';
+  closePopup = document.getElementById('close-popup');
+  closePopup.addEventListener('click', closePopupFunc);
+}
+
+card4.addEventListener('click', displayCard4);
+
+const card5 = document.querySelector('#button-card-5');
+function displayCard5() {
+  const popupWindow = document.querySelector('#popup-window');
+  popupWindow.innerHTML = makeCard(cardsInfo[5]);
+  popupWindow.style.display = 'block';
+  closePopup = document.getElementById('close-popup');
+  closePopup.addEventListener('click', closePopupFunc);
+}
+card5.addEventListener('click', displayCard5);
