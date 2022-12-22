@@ -13,6 +13,6 @@ contactForm.addEventListener('submit',(e)=>{
     if ( emailValue === emailValue.toLowerCase()){
         contactForm.submit();
     }else{
-        errorMsg.innerHTML = "Please, enter lower case letters only";        
+        errorMsg.innerHTML = "Please, enter lower case letters only";
     }
 });

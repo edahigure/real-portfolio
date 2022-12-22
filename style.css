@@ -796,6 +796,15 @@
   .container-mobile-menu {
     display: none;
   }
+
+  .error-msg {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;    
+    color: #979493;    
+  }
 }
 
 @media only screen and (max-width: 1135px) {
@@ -1600,5 +1609,14 @@
 
   .description-popup-desktop {
     display: none;
+  }
+
+  .error-msg {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;    
+    color: #979493;    
   }
 }
