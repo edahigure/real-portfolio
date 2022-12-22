@@ -466,6 +466,7 @@
     letter-spacing: 0.03em;
     color: #fff;
     margin-left: 9.86%;
+    border-style: none;
   }
 
   .get-my-resume:hover {
@@ -789,6 +790,10 @@
   }
 
   .description-popup {
+    display: none;
+  }
+
+  .container-mobile-menu {
     display: none;
   }
 }
@@ -1220,6 +1225,7 @@
     margin-top: 10px;
     margin-bottom: 211px;
     margin-left: 6.4%;
+    border-style: none;
   }
 
   .get-my-resume:hover {
