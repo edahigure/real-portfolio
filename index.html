@@ -176,7 +176,7 @@
 
     <section class="contact-me-form" id="contact">
         <h2 class="content">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-        <form class="form" action="https://formspree.io/f/maykrjbr" method="POST">
+        <form class="form" action="https://formspree.io/f/maykrjbr" method="POST" id="contact-form">
 
             <label for="name"> Full name  </label>
             <input class="items-form" type="text" id="name" name="text" maxlength="30" placeholder="Full name"  required>
@@ -186,9 +186,10 @@
 
             <label for="textarea"> Enter message</label>
             <textarea class="textarea" id="textarea" name="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
-            <button class="form-button" type="submit" id="submit">
+            <button class="form-button" type="submit" id="btn-submit">
                 Get In Touch
             </button>
+            <span class="error-msg" id="error-message"></span>
 
         </form>
     </section>
@@ -238,6 +239,7 @@
 
 <script src="./mobile-menu.js"></script>
 <script src="./popup.js"></script>
+<script src="./form-validation.js"></script>
     
 </body>
 </html>
