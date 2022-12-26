@@ -365,6 +365,7 @@
   .card-0 {
     background: url(./images/Placeholder2.png);
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .card-1 {
@@ -377,11 +378,13 @@
       ),
       url(./images/card-1-back.png);
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .card-2 {
     background: url(./images/card-4-back.png);
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .card-3 {
@@ -394,6 +397,7 @@
       ),
       url(./images/Placeholder2.png);
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .card-4 {
@@ -406,11 +410,13 @@
       ),
       url(./images/card-1-back.png);
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .card-5 {
     background: url(./images/card-4-back.png);
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .finale {
