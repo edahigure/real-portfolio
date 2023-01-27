@@ -29,7 +29,7 @@ Optionaly you can use tools like git, github, visual studio code, Node to develo
 - It is done responsively, to adapt to different devises and screen sizes
 
 ### Online version
-[Online version](https://edahigure.github.io/Portfolio/)
+[Online version](https://edahigure.github.io/real-portfolio/)
 
 ### Setup
 
@@ -37,7 +37,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:edahigure/Hello-Microverse-2.git
+  git clone https://github.com/edahigure/real-portfolio.git
 ```
 
 
