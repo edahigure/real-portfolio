@@ -16,7 +16,8 @@ const strDescriptionMobile = `Lorem Ipsum
  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`;
 
 
- strDescriptionDesktopCard0 = `This is an activities organizer. Or a to-do-list app. You can add, check , and delete activities from the local storage`;
+ const strDescriptionDesktopCard0 = `This is an activities organizer. Or a to-do-list app. You can add, check , and delete activities from the local storage`;
+ const strDescriptionMobile0 = `This is an activities organizer. Or a to-do-list app. You can add, check , and delete activities from the local storage`;
 
 const introObj = {
   name: 'My Portfolio',
@@ -37,10 +38,10 @@ const cardsInfo = [
     name_desktop: 'To-do-list',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description_desktop: strDescriptionDesktopCard0,
-    description_mobile: strDescriptionMobile,
+    description_mobile: strDescriptionMobile0,
     featured_image: './images/img-work-mobile.png',
     featured_image_desktop: './images/Screenshot-to-do-list.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
+    technologies: ['HTML', 'CSS', 'JavaScript'],
     link_to_live_version: 'https://edahigure.github.io/to-do-list/dist/',
     link_to_source: 'https://github.com/edahigure/to-do-list',
   },

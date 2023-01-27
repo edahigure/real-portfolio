@@ -814,6 +814,11 @@
 }
 
 @media only screen and (max-width: 1135px) {
+
+  a {    
+    text-decoration: none;
+  }
+
   body {
     display: block;
     margin: 0%;
