@@ -1,35 +1,48 @@
-const strDescription = `A daily selection of
- privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.`;
-const strDescriptionDesktop = `Lorem Ipsum
- is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`;
+const strDescription = `In this portfolio, I display my main web
+  programming projects. It includes a conference web page,
+  a to-do-list organizer, an awesome book catalog, uses local storage,
+  and a simple UI to track a record of books. The main technologies
+  that I am using are: `;
+  
+const strDescription2 = `For the elaboration
+  of awesome books, we learned to import and export modules and the
+  basic configuration of webpack, and the use of classes and linked list.
+  For the to-do-list application we use jest to create simple tests
+  for our methods more interesting applications will be incorporated as
+  we advance in the course. Expect our next releases`;
+
+const strDescriptionDesktop = strDescription+strDescription2;
 const strDescriptionMobile = `Lorem Ipsum
  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`;
 
+
+ strDescriptionDesktopCard0 = `This is an activities organizer. Or a to-do-list app. You can add, check , and delete activities from the local storage`;
+
 const introObj = {
-  name: 'Multi-Post Stories',
-  name_desktop: 'Keeping track of hundreds  of components website',
+  name: 'My Portfolio',
+  name_desktop: 'Keeping track of my recent projects',
   description: strDescription,
   description_desktop: strDescriptionDesktop,
   description_mobile: strDescriptionMobile,
   featured_image: './images/img-work-mobile.png',
   featured_image_desktop: './images/Snapshoot-Portfolio.png',
-  technologies: ['html', 'bootstrap', 'Ruby on rails'],
+  technologies: ['JavaScript', 'HTML', 'CSS'],
   link_to_live_version: '#',
   link_to_source: '#',
 };
 
 const cardsInfo = [
   {
-    name: 'Data Dashboard Healthcare-0',
-    name_desktop: 'Data Dashboard Healthcare',
+    name: 'To-do-list',
+    name_desktop: 'To-do-list',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description_desktop: strDescriptionDesktop,
+    description_desktop: strDescriptionDesktopCard0,
     description_mobile: strDescriptionMobile,
     featured_image: './images/img-work-mobile.png',
-    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    featured_image_desktop: './images/Screenshot-to-do-list.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
-    link_to_live_version: '#',
-    link_to_source: '#',
+    link_to_live_version: 'https://edahigure.github.io/to-do-list/dist/',
+    link_to_source: 'https://github.com/edahigure/to-do-list',
   },
   {
     name: 'Website Portfolio-1',
@@ -103,9 +116,9 @@ const bigString = `<div class="wrapper-flex-2">
       ${introObj.name}
     </h3>
 
-    <p class="works-description">
+    <div class="works-description">
       ${introObj.description}
-    </p>
+    </div>
     
     <ul class="button-container">
       <li class="button1">css</li>
@@ -176,8 +189,8 @@ function makeCard(obj) {
           
 
           <div class="button-group">
-            <button type="button" class="live-button letter-style">See Live <img src="./images/Icon-Export.png" alt="See live icon"/> </button>
-            <button type="button" class="live-button letter-style">See Source<img src="./images/Frame.png" alt="Github icon"/></button>
+          <a href="${obj.link_to_live_version}"> <button type="button" class="live-button letter-style"> See Live  <img src="./images/Icon-Export.png" alt="See live icon"/> </button> </a>
+          <a href="${obj.link_to_source}"> <button type="button" class="live-button letter-style">See Source<img src="./images/Frame.png" alt="Github icon"/></button>
           </div>
         </div>
       <div>            
