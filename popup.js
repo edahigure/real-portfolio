@@ -1,35 +1,35 @@
 const strDescription = `In this portfolio, I display my main web
-  programming projects. It includes a conference web page,
-  a to-do-list organizer, an awesome book catalog, uses local storage,
-  and a simple UI to track a record of books. The main technologies
-  that I am using are: `;
+  programming projects. `;
   
-const strDescription2 = `For the elaboration
-  of awesome books, we learned to import and export modules and the
-  basic configuration of webpack, and the use of classes and linked list.
-  For the to-do-list application we use jest to create simple tests
-  for our methods more interesting applications will be incorporated as
-  we advance in the course. Expect our next releases`;
 
-const strDescriptionDesktop = strDescription+strDescription2;
-const strDescriptionMobile = `Lorem Ipsum
- is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`;
 
+const strDescriptionDesktop = strDescription;
+const strDescriptionMobile = `In this portfolio, I display my main web
+programming projects. `;
+
+
+
+ const strDescriptionPortfolio = `In this portfolio, I display my main web
+  programming projects. It includes: `;
 
  const strDescriptionDesktopCard0 = `This is an activities organizer. Or a to-do-list app. You can add, check , and delete activities from the local storage`;
  const strDescriptionMobile0 = `This is an activities organizer. Or a to-do-list app. You can add, check , and delete activities from the local storage`;
 
+
+ strDescriptionDesktopReactReduxCapstone =  `Here we develop a data fetcher to get stock prices from NASCA market. We fetch the data by industry and display the information of each stoke, its price, name, and logo.`;  
+ strDescriptionMobileReactReduxCapstone = `Here we develop a data fetcher to get stock prices from NASCA market. We fetch the data by industry and display the information of each stoke, its price, name, and logo.`;
+
 const introObj = {
   name: 'My Portfolio',
   name_desktop: 'Keeping track of my recent projects',
-  description: strDescription,
+  description: strDescriptionPortfolio,
   description_desktop: strDescriptionDesktop,
   description_mobile: strDescriptionMobile,
   featured_image: './images/img-work-mobile.png',
-  featured_image_desktop: './images/Snapshoot-Portfolio.png',
+  featured_image_desktop: './images/portfolio.png',
   technologies: ['JavaScript', 'HTML', 'CSS'],
-  link_to_live_version: '#',
-  link_to_source: '#',
+  link_to_live_version: 'https://edahigure.github.io/real-portfolio/',
+  link_to_source: 'https://github.com/edahigure/real-portfolio',
 };
 
 const cardsInfo = [
@@ -46,28 +46,35 @@ const cardsInfo = [
     link_to_source: 'https://github.com/edahigure/to-do-list',
   },
   {
-    name: 'Website Portfolio-1',
-    name_desktop: 'Website Portfolio-1',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description_desktop: strDescriptionDesktop,
-    description_mobile: strDescriptionMobile,
-    featured_image: './images/img-work-mobile.png',
-    featured_image_desktop: './images/Snapshoot-Portfolio.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    link_to_live_version: '#',
-    link_to_source: '#',
+    name: 'React/Redux capstone project',
+    name_desktop: 'React/Redux capstone project',
+    description: "Here we develop a data fetcher to get stock prices from NASCA market.",
+    description_desktop: strDescriptionDesktopReactReduxCapstone,
+    description_mobile: strDescriptionMobileReactReduxCapstone,
+
+    featured_image: './images/react-redux-capstone.png',
+    featured_image_desktop: './images/react-redux-capstone.png',
+    technologies: ['React', 'Redux', 'JavaScript'],
+    link_to_live_version: 'https://edahigure.github.io/capstone-react-redux/',
+    link_to_source: 'https://github.com/edahigure/capstone-react-redux',
   },
   {
-    name: 'Profesional Art Printing Data-2',
-    name_desktop: 'Profesional Art Printing Data-2',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description_desktop: strDescriptionDesktop,
-    description_mobile: strDescriptionMobile,
+    name: 'React Space traveler\'s Hub',
+    name_desktop: 'React Space traveler\'s Hub',
+    description: "Here we work with the real live data from the SpaceX API. ",
+    description_desktop: `Here we work with the real live data from the SpaceX API.
+     The task is to build a web application for a company that provides commercial and 
+     scientific space travel services.
+     The application will allow users to book rockets and join selected space missions.`,
+    description_mobile: `Here we work with the real live data from the SpaceX API.
+    The task is to build a web application for a company that provides commercial and 
+    scientific space travel services.
+    The application will allow users to book rockets and join selected space missions.`,
     featured_image: './images/img-work-mobile.png',
-    featured_image_desktop: './images/Snapshoot-Portfolio.png',
+    featured_image_desktop: './images/traveler_space_hub.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
-    link_to_live_version: '#',
-    link_to_source: '#',
+    link_to_live_version: 'https://edahigure.github.io/space-travelers-hub/',
+    link_to_source: 'https://github.com/edahigure/space-travelers-hub',
   },
   {
     name: 'Data Dashboard Healthcare-3',
@@ -119,6 +126,12 @@ const bigString = `<div class="wrapper-flex-2">
 
     <div class="works-description">
       ${introObj.description}
+      <ul>
+      <li> A to-do-list organizer </li>
+      <li> React Redux Capstone project</li>
+      <li> A traveler\'s Space Hub center </li>
+      </ul>
+      
     </div>
     
     <ul class="button-container">

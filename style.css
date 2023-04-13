@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1135px) {
+@media only screen and (min-width: 1235px) {
   body {
     display: block;
     margin: 0%;
@@ -813,7 +813,7 @@
   }
 }
 
-@media only screen and (max-width: 1135px) {
+@media only screen and (max-width: 1235px) {
 
   a {    
     text-decoration: none;
