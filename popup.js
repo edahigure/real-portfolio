@@ -36,7 +36,7 @@ const cardsInfo = [
   {
     name: 'To-do-list',
     name_desktop: 'To-do-list',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    description: "Here we show a todo list organizer for your activities",
     description_desktop: strDescriptionDesktopCard0,
     description_mobile: strDescriptionMobile0,
     featured_image: './images/img-work-mobile.png',
@@ -77,40 +77,16 @@ const cardsInfo = [
     link_to_source: 'https://github.com/edahigure/space-travelers-hub',
   },
   {
-    name: 'Data Dashboard Healthcare-3',
-    name_desktop: 'Data Dashboard Healthcare-3',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description_desktop: strDescriptionDesktop,
-    description_mobile: strDescriptionMobile,
-    featured_image: './images/img-work-mobile.png',
-    featured_image_desktop: './images/Snapshoot-Portfolio.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    link_to_live_version: '#',
-    link_to_source: '#',
-  },
-  {
-    name: 'Website Portfolio-4',
-    name_desktop: 'Website Portfolio-4',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description_desktop: strDescriptionDesktop,
-    description_mobile: strDescriptionMobile,
-    featured_image: './images/img-work-mobile.png',
-    featured_image_desktop: './images/Snapshoot-Portfolio.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    link_to_live_version: '#',
-    link_to_source: '#',
-  },
-  {
-    name: 'Website Portfolio-5',
-    name_desktop: 'Website Portfolio-5',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description_desktop: strDescriptionDesktop,
-    description_mobile: strDescriptionMobile,
-    featured_image: './images/img-work-mobile.png',
-    featured_image_desktop: './images/Snapshoot-Portfolio.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    link_to_live_version: '#',
-    link_to_source: '#',
+    name: 'Budget app',
+    name_desktop: 'Pay services budget app',
+    description: "The Budget app is about building a mobile web application where you can manage your budget",
+    description_desktop: "The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    description_mobile: "The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    featured_image: './images/Budget-app-Screen-Shot.png',
+    featured_image_desktop: './images/Budget-app-Screen-Shot.png',
+    technologies: [ 'bootstrap', 'Ruby','Ruby on rails'],
+    link_to_live_version: 'https://budget-app-7tph.onrender.com/',
+    link_to_source: 'https://github.com/edahigure/budget-app',
   },
 ];
 
@@ -150,12 +126,8 @@ const bigString = `<div class="wrapper-flex-2">
 cardWorks.innerHTML = bigString;
 
 const wrapperCards = document.querySelector('.wrapper-cards');
-let bufferStr = `<div class="card card-0">
-<button class="orange-button" id = "button-card-0" >
-  See Project
-</button>                
-</div>`;
-for (let i = 1; i < cardsInfo.length; i += 1) {
+let bufferStr = '';
+for (let i = cardsInfo.length-1; i >=0; i -= 1) {
   const project = cardsInfo[i];
   bufferStr += `<div class="card card-${i}">
   <h2 class="title-post"> ${project.name}</h2>
