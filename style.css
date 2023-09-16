@@ -367,7 +367,7 @@
   }
 
   .card-0 {
-    background: url(./images/Todo-list-screen-shoot.png);
+    
     background:
 
     linear-gradient(
@@ -388,12 +388,18 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(./images/card-1-back.png);
+      url(./images/react-redux-capstone.png);
     background-repeat: no-repeat;    
   }
 
   .card-2 {
-    background: url(./images/card-4-back.png);
+    background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/traveler_space_hub.png);
     background-repeat: no-repeat;    
   }
 
@@ -405,7 +411,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(./images/Placeholder2.png);
+      url(./images/Budget-app-Screen-Shot.png);
     background-repeat: no-repeat;    
   }
 
@@ -417,12 +423,18 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(./images/card-1-back.png);
+      url(./images/Recipe-app-Screen-Shot.png);
     background-repeat: no-repeat;    
   }
 
   .card-5 {
-    background: url(./images/card-4-back.png);
+    background:
+    linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+     url(./images/bookstore-Screen-Shot.png);
     background-repeat: no-repeat;    
   }
 

@@ -82,11 +82,46 @@ const cardsInfo = [
     description: "The Budget app is about building a mobile web application where you can manage your budget",
     description_desktop: "The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
     description_mobile: "The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
-    featured_image: './images/Budget-app-Screen-Shot.png',
+    featured_image: './images/Recipe-app-Screen-Shot.png',
     featured_image_desktop: './images/Budget-app-Screen-Shot.png',
     technologies: [ 'bootstrap', 'Ruby','Ruby on rails'],
     link_to_live_version: 'https://budget-app-7tph.onrender.com/',
     link_to_source: 'https://github.com/edahigure/budget-app',
+  },
+  {
+    name: 'Recipe app',
+    name_desktop: 'Register recipes app',
+    description: "The Recipe app keeps track of all your recipes, ingredients, and inventory.",
+    description_desktop: "The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.",
+    description_mobile: "The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.",
+    featured_image: './images/Recipe-app-Screen-Shot.png',
+    featured_image_desktop: './images/Recipe-app-Screen-Shot.png',
+    technologies: [ 'bootstrap', 'Ruby','Ruby on rails'],
+    link_to_live_version: '#',
+    link_to_source: 'https://github.com/edahigure/Recipe-app.git',
+  },
+  {
+    name: 'React/Redux bookstore',
+    name_desktop: 'React/Redux bookstore',
+    description: "Here we develop web app for a bookstore, to add books to a database ",
+    description_desktop: `The Bookstore is a website similar to the Awesome Books website built in the previous module.\n
+    You will create an simplified version of it that allows you to:\n
+    Display a list of books\n
+    Add a book\n
+    Remove a selected book\n
+    By building this application, you will learn how to use React and Redux in the context of a real application.`,
+    description_mobile: `The Bookstore is a website similar to the Awesome Books website built in the previous module.\n
+    You will create an simplified version of it that allows you to:\n
+    Display a list of books\n
+    Add a book\n
+    Remove a selected book\n
+    By building this application, you will learn how to use React and Redux in the context of a real application.`,
+
+    featured_image: './images/bookstore-Screen-Shot.png',
+    featured_image_desktop: './images/bookstore-Screen-Shot.png',
+    technologies: ['React', 'Redux', 'JavaScript'],
+    link_to_live_version: 'https://edahigure.github.io/bookstore/',
+    link_to_source: 'https://github.com/edahigure/bookstore',
   },
 ];
 
