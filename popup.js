@@ -1,13 +1,9 @@
 const strDescription = `In this portfolio, I display my main web
   programming projects. `;
   
-
-
 const strDescriptionDesktop = strDescription;
 const strDescriptionMobile = `In this portfolio, I display my main web
 programming projects. `;
-
-
 
  const strDescriptionPortfolio = `In this portfolio, I display my main web
   programming projects. It includes: `;
@@ -72,7 +68,7 @@ const cardsInfo = [
     The application will allow users to book rockets and join selected space missions.`,
     featured_image: './images/img-work-mobile.png',
     featured_image_desktop: './images/traveler_space_hub.png',
-    technologies: ['html', 'bootstrap', 'Ruby'],
+    technologies: ['React', 'Redux', 'Javascript'],
     link_to_live_version: 'https://edahigure.github.io/space-travelers-hub/',
     link_to_source: 'https://github.com/edahigure/space-travelers-hub',
   },
@@ -230,6 +226,7 @@ function closePopupFunc() {
 
 const cardIntro = document.querySelector('#button-card-intro');
 
+
 function displayIntro() {
   const popupWindow = document.querySelector('#popup-window');
   popupWindow.innerHTML = makeCard(introObj);
@@ -239,63 +236,19 @@ function displayIntro() {
 }
 cardIntro.addEventListener('click', displayIntro);
 
-const card0 = document.querySelector('#button-card-0');
-function displayCard0() {
-  const popupWindow = document.querySelector('#popup-window');
-  popupWindow.innerHTML = makeCard(cardsInfo[0]);
-  popupWindow.style.display = 'block';
-  closePopup = document.getElementById('close-popup');
-  closePopup.addEventListener('click', closePopupFunc);
-}
-card0.addEventListener('click', displayCard0);
+const card=[]
 
-const card1 = document.querySelector('#button-card-1');
-function displayCard1() {
-  const popupWindow = document.querySelector('#popup-window');
-  popupWindow.innerHTML = makeCard(cardsInfo[1]);
-  popupWindow.style.display = 'block';
-  closePopup = document.getElementById('close-popup');
-  closePopup.addEventListener('click', closePopupFunc);
-}
-card1.addEventListener('click', displayCard1);
+for(let i=0; i<cardsInfo.length; i+=1) {
 
-const card2 = document.querySelector('#button-card-2');
-function displayCard2() {
-  const popupWindow = document.querySelector('#popup-window');
-  popupWindow.innerHTML = makeCard(cardsInfo[2]);
-  popupWindow.style.display = 'block';
-  closePopup = document.getElementById('close-popup');
-  closePopup.addEventListener('click', closePopupFunc);
-}
-card2.addEventListener('click', displayCard2);
+  card[i] = document.querySelector(`#button-card-${i}`);
+  function displayCard0() {
+     const popupWindow = document.querySelector('#popup-window');
+     popupWindow.innerHTML = makeCard(cardsInfo[i]);
+     popupWindow.style.display = 'block';
+     closePopup = document.getElementById('close-popup');
+     closePopup.addEventListener('click', closePopupFunc);
+  }
+  card[i].addEventListener('click', displayCard0);
 
-const card3 = document.querySelector('#button-card-3');
-function displayCard3() {
-  const popupWindow = document.querySelector('#popup-window');
-  popupWindow.innerHTML = makeCard(cardsInfo[3]);
-  popupWindow.style.display = 'block';
-  closePopup = document.getElementById('close-popup');
-  closePopup.addEventListener('click', closePopupFunc);
-}
-card3.addEventListener('click', displayCard3);
-
-const card4 = document.querySelector('#button-card-4');
-function displayCard4() {
-  const popupWindow = document.querySelector('#popup-window');
-  popupWindow.innerHTML = makeCard(cardsInfo[4]);
-  popupWindow.style.display = 'block';
-  closePopup = document.getElementById('close-popup');
-  closePopup.addEventListener('click', closePopupFunc);
 }
 
-card4.addEventListener('click', displayCard4);
-
-const card5 = document.querySelector('#button-card-5');
-function displayCard5() {
-  const popupWindow = document.querySelector('#popup-window');
-  popupWindow.innerHTML = makeCard(cardsInfo[5]);
-  popupWindow.style.display = 'block';
-  closePopup = document.getElementById('close-popup');
-  closePopup.addEventListener('click', closePopupFunc);
-}
-card5.addEventListener('click', displayCard5);
