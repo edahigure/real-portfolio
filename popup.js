@@ -46,8 +46,8 @@ const cardsInfo = [
     link_to_source: 'https://github.com/edahigure/to-do-list',
   },
   {
-    name: 'React/Redux capstone project',
-    name_desktop: 'React/Redux capstone project',
+    name: 'Stoke fetcher',
+    name_desktop: 'Stoke fetcher',
     description: "Here we develop a data fetcher to get stock prices from NASCA market.",
     description_desktop: strDescriptionDesktopReactReduxCapstone,
     description_mobile: strDescriptionMobileReactReduxCapstone,
@@ -59,8 +59,8 @@ const cardsInfo = [
     link_to_source: 'https://github.com/edahigure/capstone-react-redux',
   },
   {
-    name: 'React Space traveler\'s Hub',
-    name_desktop: 'React Space traveler\'s Hub',
+    name: 'Space traveler\'s Hub',
+    name_desktop: 'Space traveler\'s Hub',
     description: "Here we work with the real live data from the SpaceX API. ",
     description_desktop: `Here we work with the real live data from the SpaceX API.
      The task is to build a web application for a company that provides commercial and 
@@ -101,8 +101,8 @@ const cardsInfo = [
     link_to_source: 'https://github.com/edahigure/Recipe-app.git',
   },
   {
-    name: 'React/Redux bookstore',
-    name_desktop: 'React/Redux bookstore',
+    name: 'Bookstore',
+    name_desktop: 'Bookstore',
     description: "Here we develop web app for a bookstore, to add books to a database ",
     description_desktop: `The Bookstore is a website similar to the Awesome Books website built in the previous module.\n
     You will create an simplified version of it that allows you to:\n
