@@ -78,22 +78,22 @@ const cardsInfo = [
     description: "The Budget app is about building a mobile web application where you can manage your budget",
     description_desktop: "The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
     description_mobile: "The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
-    featured_image: './images/Recipe-app-Screen-Shot.png',
+    featured_image: './images/Budget-app-Screen-Shot.png',
     featured_image_desktop: './images/Budget-app-Screen-Shot.png',
     technologies: [ 'bootstrap', 'Ruby','Ruby on rails'],
     link_to_live_version: 'https://budget-app-7tph.onrender.com/',
     link_to_source: 'https://github.com/edahigure/budget-app',
   },
   {
-    name: 'Recipe app',
+    name: 'Book an appointment',
     name_desktop: 'Register recipes app',
-    description: "The Recipe app keeps track of all your recipes, ingredients, and inventory.",
-    description_desktop: "The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.",
-    description_mobile: "The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.",
-    featured_image: './images/Recipe-app-Screen-Shot.png',
-    featured_image_desktop: './images/Recipe-app-Screen-Shot.png',
-    technologies: [ 'bootstrap', 'Ruby','Ruby on rails'],
-    link_to_live_version: '#',
+    description: "This app allow you to book an appointment for an online school. ",
+    description_desktop: "The Booking app keeps track of all your reservations, for online lectures. You can add and remove both lectures and reservations from the database, to display all informations for the lectures ",
+    description_mobile: "The Booking app keeps track of all your reservations, for online lectures. You can add and remove both lectures and reservations from the database, to display all informations for the lectures ",
+    featured_image: './images/Screen Shot online lectures.png',
+    featured_image_desktop: './images/Screen Shot online lectures.png',
+    technologies: [ 'Tailwind', 'React','Ruby on rails'],
+    link_to_live_version: 'https://reserve-lectures.onrender.com',
     link_to_source: 'https://github.com/edahigure/Recipe-app.git',
   },
   {
@@ -206,8 +206,8 @@ function makeCard(obj) {
           
 
           <div class="button-group">
-          <a href="${obj.link_to_live_version}"> <button type="button" class="live-button letter-style"> See Live  <img src="./images/Icon-Export.png" alt="See live icon"/> </button> </a>
-          <a href="${obj.link_to_source}"> <button type="button" class="live-button letter-style">See Source<img src="./images/Frame.png" alt="Github icon"/></button>
+          <a href="${obj.link_to_live_version}" target=”_blank”> <button type="button" class="live-button letter-style"> See Live  <img src="./images/Icon-Export.png" alt="See live icon"/> </button> </a>
+          <a href="${obj.link_to_source}" target=”_blank”> <button type="button" class="live-button letter-style">See Source<img src="./images/Frame.png" alt="Github icon"/></button>
           </div>
         </div>
       <div>            
