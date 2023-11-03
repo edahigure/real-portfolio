@@ -65,9 +65,9 @@
     flex: 20;
     align-items: center;
     background: #1c1a19;
-    background-image: url(./images/Illustration-header.png);
+    background-image: url(./images/5559852.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: right;
   }
 
@@ -456,11 +456,10 @@
 
   .finale {
     width: 100%;
-    background-image: url(./images/illustration-about-me-desktop.png);
-    background-position: 100% 25%;
-    background-size: 50% 300px;
+    background-image: url(./images/istockphoto-1291226524-1024x1024.jpg);    
     background-repeat: no-repeat;
     background-color: #262626;
+    background-size: cover;
   }
 
   .about-me {
@@ -479,7 +478,7 @@
 
   .finale-description {
     width: 39.3%;
-    height: 148px;
+    height: 248px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
