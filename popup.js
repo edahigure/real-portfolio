@@ -94,7 +94,7 @@ const cardsInfo = [
     featured_image_desktop: './images/Screen Shot online lectures.png',
     technologies: [ 'Tailwind', 'React','Ruby on rails'],
     link_to_live_version: 'https://reserve-lectures.onrender.com',
-    link_to_source: 'https://github.com/edahigure/Recipe-app.git',
+    link_to_source: 'https://github.com/Mar12358/book-an-appointment',
   },
   {
     name: 'Bookstore',
